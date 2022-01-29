@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px){
+    nav{
+        flex-direction: column;
+    }
+
+    ul{
+        justify-content: center;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .search{
+        justify-content: center;
+        padding: 0 0 10px 0;
+    }
+    .slider{
+        padding: 10px 0;
+        height: 23vh;
+        /* background-image: co; */
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-item{
+        width: 32vw;
+    }
+
+    .card{
+        padding: 20px 0;
+    }
+
+    .card h2{
+        text-align: center;
+    }
+}

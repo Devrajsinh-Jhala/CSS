@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    /* height: 60px; */
+}
+
+nav{
+    display: flex;
+    padding: 0 40px;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 84px;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav ul li a:hover{
+    color: cornflowerblue;
+    font-weight:bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    /* padding: 0 0 10px 0; */
+}
+
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 15px;
+    margin: 0 15px 0 20px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    background-color: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    outline-style: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+.slider{
+    width: 50vw;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.slider img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+
+.card .card-item img{
+    width: 160px;
+    height: 160px;
+}
+
+.card .card-item{
+    margin: 12px 0;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 12vw;
+    /* margin: 0 40px; */
+    padding: 0 20px;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
